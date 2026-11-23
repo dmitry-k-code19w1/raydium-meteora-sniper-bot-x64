@@ -1,0 +1,21 @@
+{
+  "version": "1.2.0",
+  "rpc": {
+    "http_endpoint": "https://api.mainnet-beta.solana.com",
+    "ws_endpoint": "wss://api.mainnet-beta.solana.com",
+    "jito_block_engine": "https://mainnet.block-engine.jito.wtf",
+    "commitment": "processed"
+  },
+  "execution": {
+    "max_slippage_bps": 150,
+    "priority_fee_microlamports": 250000,
+    "auto_tp_pct": 45.0,
+    "stop_loss_pct": 18.0,
+    "paper_trading_mode": true
+  },
+  "filters": {
+    "require_mint_renounced": true,
+    "require_freeze_disabled": true,
+    "min_initial_liquidity_sol": 15.0
+  }
+}
