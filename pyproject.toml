@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "raydium-meteora-sniper-bot-x64"
+version = "1.2.0"
+description = "Solana Raydium V4 & Meteora DLMM Sniper Bot — Sub-50ms Yellowstone gRPC Geyser Execution (Windows x64 Build): native 64-bit Windows 10/11 portable x64 build with hot-reloadable JSON configuration, low-overhead runtime, and prebuilt portable release."
+readme = "README.md"
+requires-python = ">=3.10"
